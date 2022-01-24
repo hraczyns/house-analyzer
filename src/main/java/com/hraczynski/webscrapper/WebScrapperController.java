@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {"http://localhost:3000","https://house-analyzer-app.herokuapp.com"})
 public class WebScrapperController {
 
     private final WebScrapperService webScrapperService;
